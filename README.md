@@ -16,4 +16,12 @@
     3.agreagr imagen a  assets
     4 crear componente comidas
     5.crear componente home
-    
+6.busqueda
+    1.agregar metodo a food services
+    2.agregar ruta de busqueda
+    3.ver los resultado en home component
+    4.generar el componente busqueda
+        1.agregar a componente home
+        2.agregar ts 
+        3.agregarhtml
+        4.agregar css
