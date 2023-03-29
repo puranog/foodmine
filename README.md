@@ -8,4 +8,12 @@
     1.generar el componente
     2.agregar el html
     3.agregar el css
+
+5.lista de comidas
+    1.crear el modelo de comida
+    2.crar data.ts
+        1.agregar sample food
+    3.agreagr imagen a  assets
+    4 crear componente comidas
+    5.crear componente home
     
