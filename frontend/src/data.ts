@@ -1,4 +1,5 @@
 import { food } from "./app/components/partials/header/shared/models/food";
+import { tag } from "./app/components/partials/header/shared/models/tags";
 export const sample_foods:food[] = [
   {
     id:'1',
@@ -66,4 +67,14 @@ export const sample_foods:food[] = [
     imageUrl: 'assets/food-6.jpg',
     tags: ['FastFood', 'Pizza', 'Lunch'],
   },
+]
+export const sample_tags:tag[] = [
+  { name: 'All', count: 6 },
+  { name: 'FastFood', count: 4 },
+  { name: 'Pizza', count: 2 },
+  { name: 'Lunch', count: 3 },
+  { name: 'SlowFood', count: 2 },
+  { name: 'Hamburger', count: 1 },
+  { name: 'Fry', count: 1 },
+  { name: 'Soup', count: 1 },
 ]

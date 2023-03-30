@@ -25,3 +25,12 @@
         2.agregar ts 
         3.agregarhtml
         4.agregar css
+7.bar de etiquetas
+  1. crear el modelo de etiqueta
+  2.agregar samples etiquetas a data.ts
+  3.food service
+    1.agregar metodo de obtener todas las etiquetas
+    2.agregar metodo para obtener todas las comidas por etiquetas
+  4.agregar rutas de etiquetas
+  5.mostrar los resultados de las etiquetas en el componente home
+  6.generar el componente etiquetas
