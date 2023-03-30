@@ -51,3 +51,10 @@
     2.agregar ts 
     3.agregarhtml
     4.agregar css
+
+9.pagina de carrito
+  1.generar cardItem model
+  2.generar card model
+  3.generar card service
+  4.agregar boton en pagona de comida
+  5.generar card page component
