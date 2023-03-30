@@ -43,3 +43,11 @@
   4.agregar rutas de etiquetas
   5.mostrar los resultados de las etiquetas en el componente home
   6.generar el componente etiquetas
+
+8.pagina de comida
+  1.agregar metodo para food service
+  2.generar food page component
+    1.agregar ruta
+    2.agregar ts 
+    3.agregarhtml
+    4.agregar css
