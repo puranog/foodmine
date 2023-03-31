@@ -68,3 +68,19 @@
     1.home page
     2.food pages
     3.card page
+
+11.conectar al backend
+  1.crear el backend folder
+  2.npm init
+  3.npm install typescript
+  4.create tsconfing.js
+  5.crear .gitignore
+  6.copy data.ts a backend/src
+  7.npm install express cors
+  8.create server.ts//poner los metodos de foodservices para api con express
+    1.intalar @types
+    2.agregar apis
+  9.npm install nodemon ts-node --save-dev
+  10.agregar urs.ts al frontend
+  11.agregar HttpClient module
+  12.actualizar food service
