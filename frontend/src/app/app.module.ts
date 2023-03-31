@@ -13,6 +13,8 @@ import { FoodPageComponent } from './components/pages/food-page/food-page.compon
 import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
 import { TitleComponent } from './components/partials/title/title.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
+import { LognPageComponent } from './components/pages/logn-page/logn-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -27,13 +29,15 @@ import { NotFoundComponent } from './components/partials/not-found/not-found.com
     FoodPageComponent,
     CartPageComponent,
     TitleComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LognPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RatingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
 
 
 
