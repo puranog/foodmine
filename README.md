@@ -58,3 +58,13 @@
   3.generar card service
   4.agregar boton en pagona de comida
   5.generar card page component
+
+10.No encontrada!
+  1.generar el componente no encontrado
+    1.agregar ts
+    2.agregar html
+    3.agregar css
+  2.agregar a las paginas
+    1.home page
+    2.food pages
+    3.card page
