@@ -12,7 +12,9 @@ export class TagsComponent implements OnInit{
   tags?:tag[]
 
 constructor(foodServices:FoodService){
-  this.tags=foodServices.getAlltags();
+  foodServices.getAlltags().subscribe(serverTags=>{
+    this.tags=serverTags;
+  });
 }
 ngOnInit(): void {
 
