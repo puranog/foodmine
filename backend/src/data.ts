@@ -93,4 +93,12 @@ export const sample_foods: any[] = [
       address: "Shanghai",
       isAdmin: false,
     },
+    {
+      name:"Gabriel Sanchez",
+      email:"puranogame@gmail.com",
+      password:"perogame1",
+      address:"Lima",
+      isAdmin:true
+
+    }
   ];
