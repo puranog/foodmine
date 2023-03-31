@@ -20,21 +20,25 @@ private cartsubjet : BehaviorSubject<cart>=new BehaviorSubject(this.cart);
     this.setCardtoLocalStorage();
   }
   removeFromCart(foodId:string):void{
-    this.cart.items=this.cart.items.filter(item=>{
-      item.food.id!=foodId;
+    this.cart.items=this.cart.items.filter(item=>
+      item.food.id!=foodId);
+      this.setCardtoLocalStorage();
 
-    });
-    this.setCardtoLocalStorage();
+
   }
+
+
+
   changeQuantity(foodId:string,quantity:number){
-    let cartItem=this.cart.items.find(item=>{
-      item.food.id===foodId;
+    let cartItem=this.cart.items.find(item=>
+      item.food.id===foodId);
       if(!cartItem) return;
       cartItem.quantity=quantity;
       cartItem.price=quantity*cartItem.food.price;
-    });
+
     this.setCardtoLocalStorage();
   }
+
   clearCart(){
     this.cart=new cart();
     this.setCardtoLocalStorage();
