@@ -3,18 +3,26 @@
     <app-title title="Login"></app-title>
 
     <form [formGroup]="loginForm" (ngSubmit)="submit()">
-      <div class="input-container" >
-        <label  >Email</label>
-        <div>
-          <input type="email" placeholder="Email" formControlName="email"/>
+      <input-container label="email">
+      <input type="email" placeholder="Email" formControlName="email"/>
+      <div class="error-list" *ngIf="fc['email'].errors && isSubmitted">
+        <div *ngIf="fc['email'].errors['required']">
+            Email no puede estar vacio
         </div>
+        <div *ngIf="fc['email'].errors['email']">
+          Email no es valido
       </div>
-      <div class="input-container" >
-        <label  >Password</label>
-        <div>
-          <input type="password" placeholder="Password" formControlName="password"/>
-        </div>
       </div>
+    </input-container>
+      <input-container label="password">
+          <input type="password" placeholder="password" formControlName="password">
+          <div class="error-list" *ngIf="fc['password'].errors && isSubmitted">
+            <div *ngIf="fc['password'].errors['required']">
+              La contraseña es obligatoria
+            </div>
+          </div>
+    </input-container>
+
       <div class="button">
           <button type="submit">Login</button>
       </div>

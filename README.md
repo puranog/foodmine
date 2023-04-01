@@ -109,3 +109,8 @@
     1.agredar metodo local storage
     2.agregar logout method
       1.agregar header
+13.hacer componentes para la pagina login
+  1.imput container
+  2.input validation
+  3.text input
+  4.defaul button

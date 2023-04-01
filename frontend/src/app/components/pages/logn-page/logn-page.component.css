@@ -13,3 +13,54 @@ form{
   flex-direction: column;
   justify-content: center;
 }
+input{
+  width: 96%;
+  height: 90%;
+margin-left: 0.5rem;
+border:none;
+border-bottom: 0 solid grey;
+transition: border-botton 0.15s ease-out;
+background-color: white;
+font-size: 1.1rem;
+outline: none;
+
+}
+input::placeholder{
+  color: #dfdfdf;
+  font-size: 0.95rem;
+}
+input:focus{
+  border-width: 3px;
+}
+.error-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:1rem;
+  right: 1rem;
+  width: 100%;
+  width: 12rem;
+  color: red;
+}
+.button{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.button button{
+  width: 80%;
+  height: 3.5rem;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size:1rem;
+  border-radius: 0.8rem;
+  margin: 1rem auto;
+  opacity: 0.8;
+  background-color: #e72929;
+}
+.button button:hover{
+  opacity: 1;
+  cursor: pointer;
+}
